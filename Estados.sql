@@ -1,7 +1,7 @@
 -- Create Table --
 
 CREATE TABLE Estado (
-    Id       INT          NOT NULL AUTO_INCREMENT,
+    Id       SERIAL,
     CodigoUf INT          NOT NULL,
     Nome     VARCHAR (50) NOT NULL,
     Uf       CHAR 	 (2)  NOT NULL,
