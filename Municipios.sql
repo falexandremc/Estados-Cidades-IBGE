@@ -1,7 +1,7 @@
 -- Create Table --
 
 CREATE TABLE Municipio (
-  Id 	 INT 		  NOT NULL AUTO_INCREMENT,
+  Id 	 SERIAL,
   Codigo INT		  NOT NULL,
   Nome 	 VARCHAR(255) NOT NULL,
   Uf	 CHAR(2)	  NOT NULL,
