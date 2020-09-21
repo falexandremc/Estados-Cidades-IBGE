@@ -1,7 +1,7 @@
 -- Create Table --
 
 CREATE TABLE Regiao (
-  Id 	INT 		SERIAL,
+  Id		SERIAL,
   Nome 	VARCHAR(50) NOT NULL,
   PRIMARY KEY (Id)
 );
